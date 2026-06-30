@@ -35,3 +35,4 @@ kubeconfig
 # Kubernetes local test outputs
 *.out
 *.log
+
