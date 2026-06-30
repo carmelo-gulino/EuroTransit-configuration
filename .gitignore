@@ -1,0 +1,37 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Local Environment and Secrets (prevent accidental commits)
+.env
+.env.*
+kubeconfig
+*.pem
+*.key
+*.crt
+*-secret.yaml
+*-secrets.yaml
+!sealed-secrets.yaml
+
+# Helm (ignore downloaded dependencies if running `helm dep build` locally)
+# charts/ directory inside your Helm chart directories
+**/charts/
+# Temporary Helm directories
+**/tmpcharts/
+
+# Kubernetes local test outputs
+*.out
+*.log
